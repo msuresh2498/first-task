@@ -1,0 +1,17 @@
+HTTP1 VS HTTP2
+
+HTTP2 is much faster and more reliable than HTTP1. 
+HTTP1 loads a single request for every TCP connection, while HTTP2 avoids network delay by using multiplexing.
+HTTP is a network delay sensitive protocol in the sense that if there is less network delay, then the page loads faster.
+The first usable version of HTTP was created in 1997. Because it went through several stages of development, this first version of HTTP was called HTTP/1.1. 
+This version is still in use on the web. In 2015, a new version of HTTP called HTTP/2 was created.
+HTTP/2 solves several problems that the creators of HTTP/1.1 did not anticipate. In particular, HTTP/2 is much faster and more efficient than HTTP/1.1. 
+One of the ways in which HTTP/2 is faster is in how it prioritizes content during the loading process.
+
+
+
+Objects And Its Internal Representation In JavaScript
+
+Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript. 
+These objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol) in the sense that while these primitive data-types all store a single value each (depending on their types).
+Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
